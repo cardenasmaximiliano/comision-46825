@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Roboto:wght@100;400;700&display=swap');
+/*
+ colores
+#F25774
+
+
+las tipografias
+font-family: 'Handjet', cursive;
+font-family: 'Roboto', sans-serif;
+**/
+
+
+/**header*/
+header{
+    background-color: black; 
+}
+
+.navbar{
+    list-style:none;
+}
+.navbar li a{
+    color: #F25774;
+    text-decoration: none;
+}
+
+
+
+/**main**/
+section{
+    background-color: grey;
+}
+h2{
+    color: white;
+}
+/* 
+como generamos nombres a las clases - id
+
+camelCase: sectionPrincipalDeMaximiliano :D
+kebab: section-principal-de-maximiliano :D
+snake_case: section_prinicipal_de_maximiliano
+
+BEM: bloque elemnto modificador bloque__elemento--modificador -esta reservado para proyecto mas grandes
+*/
+
+.sectionPrincipal{
+    background-color: blue;
+
+}
+.sectionPrincipal h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    /* letter-spacing: 10px; */
+    word-spacing: 20px;
+    font-family: 'Handjet', cursive;
+}
+
+
+.sectionSecundaria{
+    background-color: rgb(255, 4, 0);
+}
+.sectionSecundaria article p{
+    text-indent: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+     /*genera sangria en los parrafos*/
+} 
+.sectionTercera h2{
+    color: black;
+
+}
+
+.card div h3{
+    color: blue;
+}
+
+#cardId div h3{
+    color: blueviolet;
+}
+
