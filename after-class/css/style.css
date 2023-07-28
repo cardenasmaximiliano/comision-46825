@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+/**
+
+font-family: 'Ubuntu', sans-serif;
+
+
+**/
+
+/** inicio de main y primera  seccion index***/
+.sectionIndexPrincipal{
+        background-color: black;
+}
+.sectionIndexPrincipal div{
+    
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(246, 245, 245);
+}
+.sectionIndexPrincipal div h1{
+    font-size: 40px;
+}
+
+.sectionIndexPrincipal button{
+    background-color: blue;
+}
+.sectionIndexPrincipal button a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/** inicio de segunda seccion index***/
+.sectionIndexSecundaria{
+    text-align: center;
+}
+
+.sectionIndexSecundaria h2{
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.sectionIndexSecundaria p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+}
+
+.containerInfo{
+   
+}
+.cardsInfo p{
+    font-size: 12px;
+}
+
+/** inicio de tercera seccion index***/
+
+.sectionIndexTerceria{
+    background-color: rgba(211, 211, 211, 0.531);
+}
+
+.containerInfoTercera div button {
+        background-color: blueviolet;
+        
+}
+.containerInfoTercera div button a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+}
