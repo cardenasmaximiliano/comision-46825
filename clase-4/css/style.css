@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**
+display
+alto y ancho
+posicionamiento de los elementos
+box-modeling
+declarar colores
+
+**/
+
+
+/**
+
+font-family: 'Ubuntu', sans-serif;
+
+
+**/
+body{
+    background-color: lightcoral;
+}
+
+
+
+/** inicio de main y primera  seccion index***/
+.sectionIndexPrincipal{
+        background-color: black;
+        width: 100%;   /**hace refencia al ancho*/
+        height: 43.75rem;
+        background-image: url("../assets/background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
+       
+.sectionIndexPrincipal div{
+    
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(246, 245, 245);
+}
+.sectionIndexPrincipal div h1{
+    font-size: 2em;
+}
+
+.sectionIndexPrincipal button{
+    background-color: blue;
+}
+.sectionIndexPrincipal button a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/** inicio de segunda seccion index***/
+.sectionIndexSecundaria{
+    text-align: center;
+}
+
+.sectionIndexSecundaria h2{
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.sectionIndexSecundaria p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+}
+
+
+
+.cardsInfo{
+    width: 21.875rem;
+    background-color: lightgrey;
+    /* padding: 1.25rem; */
+    /* padding-top:20px; */
+    /* padding-right: 10px;
+    padding-bottom: 5%;
+    padding-left: .9375rem; */
+    /* padding: 10px 14px 12px 5px; */
+    padding: 10px 20px; /*eje vertical eje horizontal*/
+    padding: 1.25rem;
+    /* border: .125rem solid black; */
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(112, 112, 112, 0.375);
+    border-radius: .625rem;
+    box-shadow: -0.625rem -0.625rem  .9375rem rgba(0, 0, 0, 0.169);
+    margin: 10px 5px 2px 10px;
+
+}
+.border{
+    width: 18.75rem;
+    height: 18.75rem;
+    /* background-color: lightblue; */
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.333);
+}
+.border img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cardsInfo p{
+    font-size: 12px;
+}
+
+/** inicio de tercera seccion index***/
+
+.sectionIndexTerceria{
+    background-color: rgba(211, 211, 211, 0.531);
+}
+
+.containerInfoTercera div button {
+        background-color: blueviolet;
+        
+}
+.containerInfoTercera div button a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+button{
+    display: block;
+}
+/**
+Medidas relativas y medidas absolutas
+
+medidas absolutas: medidas que quedan fijas y que no se modifican
+
+pixel: 500px 
+
+medidas relativas: son medidas que van a poder modificarse o van a ser relativas al tamaño.
+
+% = se va a adaptar al ancho pantalla que tenga. 
+
+rem= html
+
+em= 
+**/
