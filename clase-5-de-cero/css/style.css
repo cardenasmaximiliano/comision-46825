@@ -6,6 +6,8 @@
 
 header{
     background-color: rgba(128, 128, 128, 0.352);
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -17,4 +19,26 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.section-principal h1{
+    font-size: 2.5rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.295);
+    padding: 1.25rem;
+    display: inline;
+}
+
+.section-secundaria h2{
+    text-align: center;
+    font-size: 1.875rem;
+    margin: 2.5rem 0px;
+}
+
+.tienda{
+    background-color: rgba(0, 0, 0, 0.177);
+    display: flex;
+    /**flex tiene 2 propiedades importantes**/
+    flex-direction:row;
+    flex-wrap: nowrap;
 }
