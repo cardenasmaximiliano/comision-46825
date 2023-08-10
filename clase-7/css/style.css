@@ -58,6 +58,9 @@ header{
     grid-column: 1 /2;
     grid-row: 1 /3;
 }
+.section-dos div img{
+    width: 100%;
+}
 .section-dos h2{
     grid-column: 2/3;
     grid-row: 1/2;
@@ -109,3 +112,77 @@ footer{
     justify-content: center;
 }
 
+@media(max-width: 1024px){
+    .section-dos{
+        grid-template-columns:  auto auto ;
+    }
+    .tienda{
+        grid-template-columns: auto auto auto ;
+        grid-template-areas: 
+        "item1 item5 item5"
+        "item2 item3 item4"
+        
+        ;
+    }
+}
+
+@media (max-width: 768px){
+   header{
+    flex-direction: column;
+   }
+   .navBar{
+    padding-right: none;
+   }
+   .section-principal{
+    justify-content: center;
+   }
+   .section-tercera{
+        display: none;
+   }
+}
+@media(max-width:478px){
+    .navBar{
+        flex-direction: column;
+        align-items: center;
+      }
+      .section-dos{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,auto);
+      }
+      .section-dos div{
+      grid-column: 1 /2;
+      grid-row: 2/3;
+    }
+    .section-dos h2{
+       grid-column: 1/2;
+       grid-row: 1/2;
+    }
+    .section-dos p{
+        grid-column: 1 /2;
+        grid-row: 3 / 4;
+    }
+    .section-tercera{
+       display: inline;
+    }
+    .tienda{
+        width: 100%;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        grid-template-areas: 
+        "item1"
+        "item2"
+        "item3"
+        "item4"
+    }
+    .item5{
+        display: none;
+    }
+}
+
+@media (max-width: 425px){
+    header{
+        justify-content: center;
+        align-items: center;
+    }
+ 
+}
