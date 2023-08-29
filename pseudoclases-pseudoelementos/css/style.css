@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    padding: 1.25rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    list-style: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navbar li a:hover{
+    color: red;
+    cursor: pointer;
+    text-shadow: 2px 0px 10px white;
+}
+
+.navbar li a:visited{
+    color: yellow;
+}
+
+input:focus{
+    background-color: lightblue;
+    color: red;
+}
+
+
+h1{
+    text-align: center;
+    padding-bottom: 1.25rem;
+    margin-bottom: 10px;
+}
+.galeria{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.galeria img{
+    width: 18.75rem;
+    filter: grayscale(4);
+}
+
+.galeria img:hover{
+    filter: grayscale(0);
+}
+
+button:active{
+    background-color: blue;
+}
+
+.parrafos p:first-child{
+    color: blue;
+    font-size: 30px;
+}
+
+.parrafos p:last-child{
+    color: green;
+    background-color: black;
+}
+
+.parrafos p:nth-child(1){
+    color: pink;
+    font-size: 40px;
+    background-color: black;
+    text-shadow: 4px 4px 10px pink;
+}
+
+/* section{
+    background-color: lightblue;
+} */
+
+/* section:not(.parrafos){
+    background-color: white;
+    color:red;
+} */
+
+/*******pseudoelementos*********/
+
+h1:hover::before{
+    content: "La mejor ";
+    color: bisque;
+}
+
+h1:hover::after{
+    content: " del mundo";
+    color: blue;
+}
+
+.habia p::first-letter{
+    font-size: 2.5rem;
+}
+
+.habia p::first-line{
+    background-color: lightcyan;
+    font-size: 1.25rem;
+}
+
+.habia p::selection{
+    background-color: yellow;
+    color: red;
+}
+
+/**
+    camelCase
+    kebab
+    snake_case
+    BEM
+*/
+.index__header--logo{
+    
+}
+
