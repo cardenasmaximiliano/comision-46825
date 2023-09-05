@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body>
+<body class="color-change-2x">
     <header>
         <nav>
             <ul class="navbar">
@@ -17,10 +18,33 @@
         </nav>
     </header>
     <main>
+        <h1>ESTO TIENE ANIMACION</h1>
         <img class="item-2" src="../kisspng-taxi-driver-real-time-ridesharing-uber-e-hailing-taxi-driver-5ac4e1f23ab1e2.3486145415228523382404.png" alt="">
         <section class="box">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, repudiandae asperiores! Voluptatum odio soluta repellendus alias odit, sit eaque accusamus ea quam quae explicabo atque, in veritatis doloremque architecto mollitia.</p>
         </section>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1682687982107-14492010e05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="">
+                    <h2>TItulo de la card</h2>
+                    <p>Lorem ipsum dolor sit, </p>
+                </div>
+        </div>
+
+        <section>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1682687982107-14492010e05e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="">
+                <h2>TItulo de la card</h2>
+                <p>Lorem ipsum dolor sit, </p>
+            </div>
+            
+            
+        </section>
     </main>
+   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
