@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/**nosotros.html*/
+header{
+    background-image: linear-gradient(to right, #051937, #444964, #808195, #bfbec8, #ffffff);
+    padding: 1.875rem;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding: .3125rem;
+    list-style: none;
+    gap: 1.25rem;
+}
+
+.navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.navbar li:hover{
+    transform: scale(1.2);
+}
+
+.navbar li a:hover{
+    color: red;
+    
+}
+
+.item-2{
+    width: 18.75rem;
+    transform: rotate(-20deg);
+    transition: transform 2s;
+}
+.item-2:hover{
+    transform: rotate(-10deg);
+}
+
+.box{
+    width: 18.75rem;
+    height: 18.75rem;
+    background-color: lightblue;
+    transition: width 3s, height 2s;
+}
+.box:hover{
+    width: 500px;
+    height: 200px;
+}
+
+
+
+
+.gradientes .radial{
+    width: 300px;
+    height: 18.75rem;
+    background-image: radial-gradient(yellow, red);
+}
+
+.gradientes .lineal{
+    width: 18.75rem;
+    height: 18.75rem;
+    background-color: #85FFBD;
+    background-image: linear-gradient(241deg, #85FFBD 0%, #FFFB7D 100%);
+}
+
+.shadow{
+    background-color: rgba(128, 128, 128, 0.512);
+    width: 18.75rem;
+    height: 18.75rem;
+    border-radius: 50%;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 18.75rem;
+    height: 18.75rem;
+    background-image: linear-gradient(to right bottom, #d16b98, #e7787c, #e98f64, #daac5a, #bec767, #9cd37d, #75dc9d, #44e2c2, #00dcdb, #00d4ee, #24caf9, #5fbefb);
+}
+
+.circle:hover{
+    /* transform: translate(50px); */
+    transform: scale(0.9);
+}
+
+/**rotate**/
+
+.rotate{
+    width: 400px;
+    height: 200px;
+    background-color: khaki;
+    transform: rotate(90deg);
+    transition: transform 2s; 
+}
+
+.rotate:hover{
+    transform: rotate(0deg);
+}
+/***********/
